@@ -2,3 +2,18 @@
 	src: url("../fonts/NanumSquareRoundOTFR.otf");
 	font-family: NanumSR;
 }
+
+* {
+  font-family: 'NanumSR', sans-serif;
+  box-sizing: border-box;
+  background-color: #F0E8D9;
+}
+
+.box{
+	background-color: white;
+	width: 70%;
+	height: 1500px;
+	margin: 50px auto 150px auto;
+	padding: 50px 100px 50px 100px;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+}
