@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      잉력시장
+    </title>
+    <style>
+      #how_to_use{
+        border : 1px solid none ;
+        margin-left: 5%;
+        margin-right :5%;
+        font-family: 'NanumSquareRoundR';
+        display: grid;
+        grid-template-columns: 510px 1fr ;
+      }
+      @font-face {
+        font-family: 'NanumSquareRoundR';
+        src: url(font/NanumSquareRoundR.eot);
+        src: url(font/NanumSquareRoundR?#iefix) format('embedded-opentype'),
+        url(font/NanumSquareRoundR.woff2) format('woff2'),
+        url(font/NanumSquareRoundR.woff) format('woff'),
+        url(font/NanumSquareRoundR.ttf) format('truetype');
+      }
+      div {
+        border :1px none;
+        padding: 5px;
+      }
+      #category{
+        border : 2px solid silver;
+        border-bottom : none;
+        border-left : none;
+        border-right : none;
+        margin-left: 5%;
+        margin-right :5%;
+        font-family: 'NanumSquareRoundR';
+        display: grid;
+      }
+      li.menu{
+        list-style-type: none;
+        float : left;
+        border : 1px none;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        font-size: 11px;
+      }
+      a.menu{
+          color: black;
+          text-decoration-line: none;
+      }
+      ul{
+        margin:0;
+        padding-left:20px;
+        list-style: none;
+      }
+      #content_zip{
+        border : 1px none;
+        display: grid;
+        margin-left: 5%;
+        margin-right :5%;
+        font-family: 'NanumSquareRoundR';
+        grid-template-rows: 70px;
+      }
+      div.content{
+        border :1px solid rgba(0,0,0,0.03);
+        display: grid;
+        grid-template-columns: 3fr 5fr 1fr;
+        margin: 3px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 5px 5px rgba(0,0,0,.03);
+      }
+      div.content_text_title{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+      }
+      div.content_text_detail{
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        color: gray;
+      }
+      div.content_text_time{
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+      }
+      #search_content{
+        border : none;
+        width : 200px;
+        height: 18px;
+        background-color: rgba(0,0,0,0.1);
+        float: right;
+        margin-left: 10px;
+        padding-top: 5px;
+      }
+      #seeing{
+        color:gray;
+        text-decoration:underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>뭔가 있겠지...</h1>
+    <!-- 다판다 게시판 이용-->
+    <div id="how_to_use">
+      <div>
+          <img src = "labor_image.jpg" style="width:500px;border-radius:2px;">
+      </div>
+      <div style="padding-left:40px;padding-top:20px;">
+        <font size = 4px><b>잉력시장 게시판 이용법</b></font>
+        <font size = 2px>
+          <ul>
+            <p>
+              <li><b>사람을 구하는 경우</b></li>
+              우측 상단 글 작성하기 버튼을 눌러 원하는 사람의 정보를 입력해주세요.
+            </p>
+            <p>
+              <li><b>유의 사항</b></li>
+              카테고리를 정확히 선택해주세요.<br>
+              필요한 인력과 카테고리가 없다면, ‘그 외’ 카테고리를 선택해주세요.<br>
+              이전에 작성한 글을 보고 싶다면, ‘글 작성하기 - 내 게시글 관리’에서 확인하실 수 있습니다.<br>
+              원하는 사람을 찾았다면 상태를 바로바로 올려주세요(모집 전, 모집 중, 모집 완료)<br>
+              수강신청과 관련된 거래는 불가능 합니다.<br>
+            </p>
+          </ul>
+        </font>
+      </div>
+    </div>
+    <!-- 카테고리-->
+    <div id="category">
+      <ul>
+        <li class= "menu"><a class = "menu" href="잉력시장_전체게시글.html">전체게시글</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_아르바이트.html">아르바이트</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_인턴 & 직원.html">인턴 & 직원</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_실험 참가자.html">실험 참가자</a></li>
+        <li class= "menu"><a class = "menu" id="seeing" href="잉력시장_배달음식 주문.html">배달음식 주문</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_설문 조사.html">설문 조사</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_공동 구매.html">공동 구매</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_스터디.html">스터디</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_봉사자.html">봉사자</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_문의 및 도움 요청.html">문의 및 도움 요청</a></li>
+        <li class= "menu"><a class = "menu" href="잉력시장_그 외.html">그 외</a></li>
+        <li id="search_content">
+        </li>
+        <li style="font-size:11px; float:right; padding:5px;">
+        키워드검색
+        </li>
+        </ul>
+    </div>
+    <!-- 내용물...-->
+    <div id="content_zip">
+      <div class="content">
+        <div class="content_text_title">
+          사람을 구하고 있습니다 블라ㅡㅂ
+        </div>
+        <div class="content_text_detail">
+          그렇습니다 제 직업은 소방관이었던거십니다.<br>
+        </div>
+        <div class="content_text_time">
+          2019.10.20
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_text_title">
+        </div>
+        <div class="content_text_detail">
+        </div>
+        <div class="content_text_time">
+          2019.10.20
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_text_title">
+        </div>
+        <div class="content_text_detail">
+        </div>
+        <div class="content_text_time">
+          2019.10.20
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_text_title">
+        </div>
+        <div class="content_text_detail">
+        </div>
+        <div class="content_text_time">
+          2019.10.20
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_text_title">
+        </div>
+        <div class="content_text_detail">
+        </div>
+        <div class="content_text_time">
+          2019.10.20
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_text_title">
+        </div>
+        <div class="content_text_detail">
+        </div>
+        <div class="content_text_time">
+          2019.10.20
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
