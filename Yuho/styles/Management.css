@@ -85,3 +85,26 @@ html{
 	color: white;
 	text-decoration: none;
 }
+
+.post{
+	width: 85%;
+	height: 50px;
+	margin: 10px auto 10px auto;
+	border: 1px solid #F1F1F1;
+	border-radius:5px 5px 5px 5px;
+	padding: 15px 25px 15px 15px;
+	background-color: #F9F9F9;
+}
+
+.post p{
+	margin-top: 0px;
+	display:inline-block;
+}
+
+.post a{
+	float:right;
+	font-size: 150%;
+	font-size: 150%;
+	text-decoration: none;
+	color:#58595B;
+}
