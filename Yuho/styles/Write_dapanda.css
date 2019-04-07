@@ -2,3 +2,51 @@
 	src: url("../fonts/NanumSquareRoundOTFR.otf");
 	font-family: NanumSR;
 }
+
+@font-face{
+	src: url("../fonts/NanumSquareRoundOTFL.otf");
+	font-family: NanumSRL;
+}
+
+* {
+  font-family: 'NanumSR', sans-serif;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #F1F1F1;
+}
+
+.Back a{
+	text-decoration: none;
+	color:black;
+}
+
+.Box p{
+	padding: 20px 20px 20px 20px;
+}
+
+.Box{
+	background-color: white;
+	width: 70%;
+	min-width: 630px;
+	height: 1000px;
+	margin: 100px auto 150px auto;
+	padding: 0px 0px 0px 0px;
+	box-shadow:0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+.Input{
+	display: block;
+	margin: 0px 20px 0px 20px;
+}
+
+.item{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #58595B;
+	border-radius: 2px 2px 2px 2px;
+}
