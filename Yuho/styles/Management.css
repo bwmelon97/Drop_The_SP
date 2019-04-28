@@ -108,3 +108,7 @@ html{
 	text-decoration: none;
 	color:#58595B;
 }
+
+.post button{
+	position: relative;
+	left: 620px;

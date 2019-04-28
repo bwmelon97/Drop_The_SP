@@ -8,6 +8,20 @@
 
 	</head>
 
+	<script type="text/javascript">
+		function over()
+        {
+             document.getElementById("b1").innerHTML="수정";
+             document.getElementById("b2").innerHTML="삭제";
+             document.getElementById("b3").innerHTML="^ 판매중";
+        }
+		function out(){
+			 document.getElementById("b1").innerHTML="xx";
+			 document.getElementById("b2").innerHTML="xx";
+			 document.getElementById("b3").innerHTML="xx";
+		}
+	</script>
+
 	<body>
 		<div class="Menu">
 			<ul> <a href="Management_dapanda.html">다판다</a> </ul>
@@ -23,9 +37,11 @@
 			</div>
 			<hr width="85%" color="#F1F1F1">
 			<div class="Lower">
-				<div class="post">
+				<div class="post" onmouseover="over()" onmouseout="out()">
 					<p>첫 게시글 입니다.</p>
-					<a href="#">...</a>
+					<button id="b1">xxx</button>
+					<button id="b2">xxx</button>
+					<button id="b3">xxx</button>
 				</div>
 				<div class="post">
 				</div>
